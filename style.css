@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    color: white;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-size: 1.1em;
+}
+iframe{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+img#ima{
+    width: 200px;
+    display: inline;
+    
+    position: relative;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+form{
+    margin-bottom: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+
+    background-image: url('fundo.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+div#capa{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.67);
+    padding: 25px 10px;
+    width: 90%;
+    border-radius: 20px;
+    max-width: 700px;
+    backdrop-filter: blur(5px);
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+label{
+    display: inline-block;
+
+    width: 22%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+div.divs{
+    margin-bottom: 40px;
+    text-align: left;
+}
+input{
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.852);
+    border-radius: 10px;
+    text-align:left;
+    padding: 5px 5px;
+}
+div#botoes{
+    display: inline-block;
+
+    margin-top: 20px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div#botoes *{
+    padding: 10px 20px;
+    background-color: black;
+}
+div#capa{
+    display: none;
+}
+
+img.icones{
+    width: 50px;
+    float: right;
+}
+/*Essa era o estilo d minha iframe só que decide fazer tudo em um arquivo só*/
+
+div#texto{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(15px);
+
+}
+img#bola{
+    width: 100px;
+    position: relative;
+    margin-bottom: 10px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+div#fala{
+    padding: 0px 6px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button#btn{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+
+    background-color: transparent;
+    
+    position: relative;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
